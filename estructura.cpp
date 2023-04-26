@@ -24,7 +24,6 @@ char Grafo::getFin() {
     return fin;
 }
 int Grafo::heuristic(char actual, char objetivo) {
-    // Simplistic heuristic that always returns 0 (effectively turning A* into Dijkstra's algorithm)
     return 0;
 }
 vector<char> Grafo::getNombreVertices() {
